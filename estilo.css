@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.topo1{
+color: gray;
+    display: flex;
+    background-color: rgb(84, 19, 187);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    img{
+        padding-top: 10px;
+        margin-left: 620px;
+       height: 40px;
+    }
+}
+
+.topo2{
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.banner{
+    background-image: url('banner.png');
+   padding-top: 500px;
+}
+.topo3{
+    h1{font-size: 25px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+   p{padding-top: 20px; text-align: justify;
+    width: 1000px;
+    margin: 0 auto;
+   }
+   span{background-color: #9d34e7;}
+}
+.topo4{
+    padding-top: 10px;
+    h1{font-size: 25px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+}
+p{padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-left: 140px;
+}
+
+
+.tabela{
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+    }
+    
+    table {
+        width: 80%; 
+        margin: 0 auto; 
+        border-collapse: collapse;
+    }
+    
+    table, th, td {
+        border: 1px solid #000;
+    }
+    
+    thead {
+        background-color: #4b0082;
+    }
+    
+    th, td {
+        padding: 10px;
+        text-align: left;
+        color: white;
+    }
+    
+    th {
+        background-color: #646464;
+    }
+    
+    tbody tr:nth-child(odd) {
+        background-color: #5e2b96; 
+    }
+    
+    tbody tr:nth-child(even) {
+        background-color: #4b0082; 
+    }
+}
+.fim{
+    text-align: center;
+    color: white;
+    background-color: rgb(84, 19, 187);  
+    
+}
